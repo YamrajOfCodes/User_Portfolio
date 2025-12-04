@@ -8,7 +8,7 @@ const Footer = () => {
           <img src={brandLogo} alt="brand logo" srcset="" />
         </div>
         <div className="navlinks">
-            <ul className='space-x-6 text-white cursor-pointer flex text-sm lg:text-md justify-center items-center h-full'>
+            <ul className='space-x-6 text-white cursor-pointer flex text-sm lg:text-2xl lg:text-md justify-center items-center h-full'>
             <li className='hover:text-[rgba(146,95,240,1)] transition'>Home</li>
             <li className='hover:text-[rgba(146,95,240,1)] transition'>Portfolio</li>
             <li className='hover:text-[rgba(146,95,240,1)] transition'>Skills</li>

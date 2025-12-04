@@ -6,10 +6,10 @@ import React from 'react';
   const strokeDashoffset = circumference - (percentage / 100) * circumference;
 
   return (
-    <div className="flex flex-col md:flex-row items-center gap-4  bg-[rgba(1,1,1,1)] border border-[rgba(115,115,115,1)] p-4 2xl:p-20  rounded-xl w-full lg:w-[45%]">
+    <div className="flex flex-col md:flex-row items-center gap-8  bg-[rgba(1,1,1,1)] border border-[rgba(115,115,115,1)] p-4 2xl:p-20  rounded-xl w-full lg:w-[49%]">
       {/* Circular Progress */}
    <div className="relative w-32 h-32 md:w-40 md:h-40 xl:w-52 xl:h-52 flex-shrink-0">
-        <svg className="w-full h-full -rotate-90" viewBox="0 0 120 120">
+        <svg className="w-full h-full -rotate-210" viewBox="0 0 120 120">
           {/* Progress circle with gradient */}
           <defs>
             <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">

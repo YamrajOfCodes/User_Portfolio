@@ -16,14 +16,14 @@ const Header = () => {
      <div className="brand">
         <img src={brandLogo} className='w-20 sm:w-24 lg:w-28' alt="brand logo" />
      </div>
-        <ul className='hidden sm:flex space-x-6 md:text-2xl text-white cursor-pointer'>
+        <ul className='hidden sm:flex space-x-6   md:text-xl lg:text-2xl text-white cursor-pointer'>
             <li className='hover:text-[rgba(146,95,240,1)] transition'>Home</li>
             <li className='hover:text-[rgba(146,95,240,1)] transition'>Portfolio</li>
             <li className='hover:text-[rgba(146,95,240,1)] transition'>Skills</li>
             <li className='hover:text-[rgba(146,95,240,1)] transition'>About Me</li>
         </ul>
      <div className='contact-cta hidden sm:block'>
-       <button className='px-6 py-3 text-lg rounded-md bg-[rgba(146,95,240,1)] text-white hover:bg-[rgba(126,75,220,1)] transition'>Contact Me</button>
+       <button className='px-6 py-3 text-lg rounded-md bg-[rgba(146,95,240,1)] text-white hover:bg-[rgba(126,75,220,1)] transition hover:cursor-pointer'>Contact Me</button>
      </div>
 
     <div className='contact-cta sm:hidden cursor-pointer' onClick={handleNav}>
