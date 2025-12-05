@@ -1,16 +1,26 @@
-# React + Vite
+# User PortFolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a lightweight portfolio website featuring a single-page layout with sections for skills, projects, experience, and contact information. The design prioritizes responsiveness, accessibility, and straightforward presentation. The goal is to provide a quick overview of who I am, what I build, and the technologies I work with. Ideal for recruiters, clients, or anyone reviewing my work.
 
-Currently, two official plugins are available:
+## What's Inside
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fully responsive design with Tailwind
+- Modular, reusable components 
 
-## React Compiler
+## Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Tailwind CSS
+- Vite as the build tool
 
-## Expanding the ESLint configuration
+## Best Part
+I intentionally completed the design without relying on AI tools. While using them could have made the layout perfectly pixel-aligned, I chose to handle it manually to demonstrate my own attention to detail and design accuracy.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+
