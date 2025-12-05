@@ -9,10 +9,10 @@ const Footer = () => {
         </div>
         <div className="navlinks">
             <ul className='space-x-6 text-white cursor-pointer flex text-sm lg:text-2xl lg:text-md justify-center items-center h-full'>
-            <li className='hover:text-[rgba(146,95,240,1)] transition'>Home</li>
-            <li className='hover:text-[rgba(146,95,240,1)] transition'>Portfolio</li>
-            <li className='hover:text-[rgba(146,95,240,1)] transition'>Skills</li>
-            <li className='hover:text-[rgba(146,95,240,1)] transition'>About Me</li>
+            <li className='hover:text-btn-hover transition'><a href="#home">Home</a></li>
+            <li className='hover:text-btn-hover transition'><a href="#portfolio">Portfolio</a></li>
+            <li className='hover:text-btn-hover transition'><a href="#skills">Skills</a></li>
+            <li className='hover:text-btn-hover transition'><a href="#about">About Me</a></li>
         </ul>
         </div>
     </footer>

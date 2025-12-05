@@ -2,4 +2,42 @@
 
 :root{
   background-color: black;
+  font-family: "Poppins";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+@theme {
+
+
+  /* For Name in Header */
+ --color-gradient-start: #ff1654;
+  --color-gradient-mid: #ff6b3d;
+  --color-gradient-end: #ffd700;
+  --color-primary: #925ff0;
+  --color-primary-hover: #7e4bdc;
+
+  /* For Layouts */
+
+  --color-primary: #fa709a;
+  --color-secondary: #ffb199;
+  --color-dark-bg: #292929;
+  --color-btn-hover:rgba(146,95,240,1);
+  --color-bg-primary:rgba(11,11,11,1);
+  --color-bg-secondary:rgba(41,41,41,1);
+  --color-Border:rgba(100,100,100,1);
+
+  --font-family-poppins: "Poppins", sans-serif;
+  
+  --breakpoint-3xl: 1920px;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
 }

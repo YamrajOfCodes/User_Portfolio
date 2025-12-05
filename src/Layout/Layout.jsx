@@ -5,15 +5,15 @@ import Footer from '../Components/Footer/Footer'
 const Layout = ({ children }) => {
   return (
     <>
-       <Header />
-     <div className='w-[90%] mx-auto'>
-      {
-        children
-      }
-      <Footer />
-    </div>
+      <Header />
+      <div className='w-[90%] mx-auto'>
+        {
+          children
+        }
+        <Footer />
+      </div>
     </>
-   
+
   )
 }
 
