@@ -24,7 +24,7 @@ const Header = () => {
      </div>
         </div>
         
-        <ul className='hidden sm:flex space-x-6 md:text-xl lg:text-2xl text-white cursor-pointer'>
+        <ul className='hidden sm:flex space-x-6 md:text-xl text-white cursor-pointer'>
           <li className='hover:text-purple-400 transition'><a href="#home">Home</a></li>
           
           {/* Portfolio with Dropdown */}

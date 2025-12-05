@@ -8,13 +8,13 @@
         </h2>
         <div className="flex flex-wrap gap-2 mb-4">
         {
-          tech.map((technology,_) =>   <span className="px-3 py-1 bg-[rgba(120,77,199,1)] text-white text-xs lg:text-[1rem] rounded-full">
+          tech.map((technology,_) =>   <span className="px-2 py-1 bg-[rgba(120,77,199,1)] text-white text-xs lg:text-[1rem] rounded-full">
             {technology}
           </span>)
         }
         </div>
       
-        <button className="w-full bg-bg-secondary hover:bg-gray-700 text-white py-3 xl:text-lg rounded-lg transition-colors cursor-pointer">
+        <button className="w-full bg-bg-secondary hover:bg-[#4b4b4b] text-white py-3 xl:text-lg rounded-lg transition-colors cursor-pointer">
           View Product Detail
         </button>
       </div>

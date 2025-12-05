@@ -6,7 +6,7 @@ import React from 'react';
 
   return (
     <div className="flex flex-col md:flex-row items-center gap-8  bg-[rgba(1,1,1,1)] border border-[rgba(115,115,115,1)] p-4 2xl:p-20   rounded-xl w-full lg:w-[49%]">
-   <div className="relative w-32 h-32 md:w-40 md:h-40 xl:w-52 xl:h-52 flex-shrink-0">
+   <div className="relative w-32 h-32 md:w-40 md:h-40  flex-shrink-0">
         <svg className="w-full h-full -rotate-210" viewBox="0 0 120 120">
           <defs>
             <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -34,8 +34,8 @@ import React from 'react';
       </div>
 
       <div className="flex-2">
-        <h2 className="font-bold text-white mb-3 sm:text-2xl 2xl:text-5xl">{skill}</h2>
-        <p className=" text-white text-sm sm:text-xl lg:text-xl 2xl:text-2xl leading-relaxed">
+        <h2 className="font-bold text-white mb-3 sm:text-2xl 2xl:text-4xl">{skill}</h2>
+        <p className=" text-white text-sm sm:text-lg xl:text-xl 2xl:text-xl leading-relaxed">
          {desc || ""} 
         </p>
       </div>
